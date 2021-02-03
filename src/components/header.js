@@ -9,14 +9,20 @@ font-size: 45px;
 
 color: #3B3C4A;
 float: left;
-margin: 5px;
+margin: 5px 25px 5px 25px;
+padding: 5px 50px 5px 5px;
 padding: 5px;
+display: flex;
+justify-content: center;
 
 `;
 
 const Head = styled.header`
 background: #F4F4ED;
 height: 75px;
+border-bottom: solid #3B3C4A;
+
+
 `;
 
 
@@ -24,6 +30,8 @@ height: 75px;
 const Wrapper = styled.section`
 padding: 5px;
 float: right;
+justify-content: center;
+float: center;
 
 `;
 
@@ -31,17 +39,37 @@ float: right;
 
 const BluGithub = styled(Github)`
 color: #72DDF7;
+cursor: pointer;
+&:hover {
+    color: white;
+    
+}
 `;
 
 const CharcoalEmail = styled(EmailOutline)`
 color: #3B3C4A;
-hover: {
+cursor: pointer;
+&:hover {
     color: white;
+    
 }
 `;
 
 const TartLinkedin = styled(LinkedinWithCircle)`
 color: #FE4A49;
+cursor: pointer;
+&:hover {
+    color: white;
+    
+}
+`;
+
+const Skill = styled.p`
+color: #3B3C4A;
+font-size: 25px;
+margin: 15px;
+
+
 `;
 
 const Header = () => {
@@ -49,7 +77,11 @@ const Header = () => {
         <Head>
             <Title>
                 Andy Pedonti
+            <Skill>Full Stack Developer </Skill>
+            <Skill> Outdoorsman </Skill>
+            <Skill> Leader </Skill>
             </Title>
+           
             
         <Wrapper>
             <BluGithub 
