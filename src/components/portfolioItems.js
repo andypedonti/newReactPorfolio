@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import {Github} from '@styled-icons/boxicons-logos/Github';
 import {portfolioContent} from './portfolioContent';
+import DevIcon from "devicon-react-svg";
 
 const PortfolioContainer = styled.body`
 background: #F4F4ED;
@@ -20,38 +21,52 @@ border-radius: 5px;
 const Iconheader = styled.header`
 background: #72DDF7;
 height: 45px;
-width: 100%
+width: 100%;
+color: #3B3C4A
 
 `;
 
-const IconGithub = styled(Github)`
-color: #FE4A49;
-`;
 
 const CardBody = styled.div`
 
 `;
 
+const StyledIcon = styled(DevIcon)`
+height: 20px;
+width: 20px;
+color: #3B3C4A
+`;
+
 const PortfolioItems = () => {
     return(
         
-        <div>
+        
+        <PortfolioContainer>
         {
             portfolioContent.map((item) =>       
-        <PortfolioContainer>
             <CardWrapper>
                 <Iconheader>
                 <p>{item.title}</p>
-                    <IconGithub
-                    size="20" />
+                <StyledIcon icon={item.css} />
+                <StyledIcon icon={item.javascript}/>
+                <StyledIcon icon={item.html} />
+                <StyledIcon icon={item.node} />
+                <StyledIcon icon={item.react} />
+                <StyledIcon icon={item.jquery} />
+                <StyledIcon icon={item.mongo} />
+                <StyledIcon icon={item.mysql} />
+                <StyledIcon icon={item.bootstrap}/>
+                <StyledIcon icon={item.npm} />
+                    
+                    
                 </Iconheader>
             </CardWrapper>
             
+            
+            )
+        }
         </PortfolioContainer>
                 
-                )
-        }
-                </div>
     )
 }
 
