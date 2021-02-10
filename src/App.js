@@ -4,6 +4,7 @@ import Header from './components/header';
 import React from 'react';
 import Bar from './components/bar';
 import AboutMe from './components/about';
+import PortfolioItems from './components/portfolioItems';
 
 class  App extends React.Component {
   render() {
@@ -12,6 +13,7 @@ class  App extends React.Component {
     <Header />
     <Bar />
     <AboutMe />
+    <PortfolioItems />
     </div>
   )
 }
