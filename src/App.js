@@ -13,6 +13,7 @@ class  App extends React.Component {
     <Header />
     <Bar />
     <AboutMe />
+    
     <PortfolioItems />
     </div>
   )
