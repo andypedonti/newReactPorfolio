@@ -3,26 +3,35 @@ import styled from 'styled-components';
 import {Github} from '@styled-icons/boxicons-logos/Github';
 import { EmailOutline} from '@styled-icons/evaicons-outline/EmailOutline';
 import {LinkedinWithCircle} from '@styled-icons/entypo-social/LinkedinWithCircle';
+import {device} from './device';
 
 const Title = styled.h1`
 font-size: 45px;
 
 color: #3B3C4A;
 float: left;
-margin: 5px 25px 5px 25px;
-padding: 5px 50px 5px 5px;
+margin: 5px 5px 5px 5px;
+padding: 5px 5px 5px 5px;
 padding: 5px;
 display: flex;
 justify-content: center;
 
+
 `;
 
 const Head = styled.header`
+margin: auto;
 background: #F4F4ED;
+padding: 2px;
 height: 75px;
-border-bottom: solid #3B3C4A;
+border-bottom: solid #3A7D44;
+border-bottom-width: 15px;
+flex-direction: column;
 
-
+@media ${device.mobileL} {
+    flex direction: row;
+    height: 125px;
+};
 `;
 
 
@@ -31,7 +40,7 @@ const Wrapper = styled.section`
 padding: 5px;
 float: right;
 justify-content: center;
-float: center;
+
 
 `;
 
@@ -70,6 +79,7 @@ font-size: 25px;
 margin: 15px;
 
 
+
 `;
 
 const Header = () => {
@@ -77,9 +87,7 @@ const Header = () => {
         <Head>
             <Title>
                 Andy Pedonti
-            <Skill>Full Stack Developer </Skill>
-            <Skill> Outdoorsman </Skill>
-            <Skill> Leader </Skill>
+           
             </Title>
            
             

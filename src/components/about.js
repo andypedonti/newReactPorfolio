@@ -1,13 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
 import img from '../components/pics/018.jpg';
+import {device} from './device';
 
 const About = styled.div`
+display: flex;
+flex-direction: row;
 border-top: solid #6A3E37;
 padding: 15px;
 background: #F4F4ED;
-align-items: center;
-display: flex;
+
+@media ${device.tablet} {
+    flex-direction: column;
+    align-content: center;
+}
+
+
+
 
 `;
 
@@ -23,6 +32,12 @@ margin: 22.5px:
 
 const Image = styled.div`
 margin: 15px;
+
+@media ${device.tablet} {
+    float: center;
+}
+
+
 `;
 
 const AboutMe = () => {

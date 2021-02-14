@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import {portfolioContent} from './portfolioContent';
 import DevIcon from "devicon-react-svg";
+import {device} from './device';
 
 const PortfolioContainer = styled.body`
 background: #F4F4ED;
