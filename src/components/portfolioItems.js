@@ -61,6 +61,7 @@ const PortfolioItems = () => {
         
         
         <PortfolioContainer>
+            
         {
             portfolioContent.map((item) =>       
             <CardWrapper>
