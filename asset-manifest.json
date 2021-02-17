@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/new/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/new/static/js/main.89dd8239.chunk.js",
-    "main.js.map": "/new/static/js/main.89dd8239.chunk.js.map",
-    "runtime-main.js": "/new/static/js/runtime-main.031292d0.js",
-    "runtime-main.js.map": "/new/static/js/runtime-main.031292d0.js.map",
-    "static/js/2.67d9827e.chunk.js": "/new/static/js/2.67d9827e.chunk.js",
-    "static/js/2.67d9827e.chunk.js.map": "/new/static/js/2.67d9827e.chunk.js.map",
-    "static/js/3.a9037238.chunk.js": "/new/static/js/3.a9037238.chunk.js",
-    "static/js/3.a9037238.chunk.js.map": "/new/static/js/3.a9037238.chunk.js.map",
-    "index.html": "/new/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/new/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.67d9827e.chunk.js.LICENSE.txt": "/new/static/js/2.67d9827e.chunk.js.LICENSE.txt",
-    "static/media/018.fd986f3b.jpg": "/new/static/media/018.fd986f3b.jpg"
+    "main.css": "/newReactPortfolio/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/newReactPortfolio/static/js/main.89dd8239.chunk.js",
+    "main.js.map": "/newReactPortfolio/static/js/main.89dd8239.chunk.js.map",
+    "runtime-main.js": "/newReactPortfolio/static/js/runtime-main.44c4f2ef.js",
+    "runtime-main.js.map": "/newReactPortfolio/static/js/runtime-main.44c4f2ef.js.map",
+    "static/js/2.b474ce79.chunk.js": "/newReactPortfolio/static/js/2.b474ce79.chunk.js",
+    "static/js/2.b474ce79.chunk.js.map": "/newReactPortfolio/static/js/2.b474ce79.chunk.js.map",
+    "static/js/3.a9037238.chunk.js": "/newReactPortfolio/static/js/3.a9037238.chunk.js",
+    "static/js/3.a9037238.chunk.js.map": "/newReactPortfolio/static/js/3.a9037238.chunk.js.map",
+    "index.html": "/newReactPortfolio/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/newReactPortfolio/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.b474ce79.chunk.js.LICENSE.txt": "/newReactPortfolio/static/js/2.b474ce79.chunk.js.LICENSE.txt",
+    "static/media/018.fd986f3b.jpg": "/newReactPortfolio/static/media/018.fd986f3b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.031292d0.js",
-    "static/js/2.67d9827e.chunk.js",
+    "static/js/runtime-main.44c4f2ef.js",
+    "static/js/2.b474ce79.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
     "static/js/main.89dd8239.chunk.js"
   ]
